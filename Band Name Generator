@@ -1,4 +1,9 @@
+# Intended as an intro to inputs and variables. Starts with a welcome message using print()
 print('Welcome to the band name generator!')
+
+# Assigns the questions about city and pets as variables "city" and "pet" and uses "\n" to have the user input their answers on a second line
 city = input('What city did you grow up in?\n')
 pet = input('What is your pets name?\n')
+
+# prints out the results using the two variables that were assigned based on the user's inputs
 print('Your band name could be: The ' +city+' '+ pet+'s')
